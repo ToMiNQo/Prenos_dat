@@ -76,9 +76,6 @@ public class App {
                 double averageTemperature=iotNode.getAverageTemperature("station_1","20/01/2020 15:00","21/01/2020 15:00");
                 System.out.println(averageTemperature);
             }
-            else{
-                System.out.println("tututu");
-            }
         } catch (IOException e) {
             e.printStackTrace();
         }
